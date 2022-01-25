@@ -1,0 +1,27 @@
+p a {
+  color: #333741;
+}
+
+p a:hover {
+  color: #333741;
+}
+
+footer {
+  color: #333741;
+  text-align: center;
+  font-size: 25pt;
+}
+
+footer a {
+  color: #aaaaaa;
+}
+
+footer a:hover {
+  color: #333741;
+}
+
+.nav-link:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
