@@ -2,7 +2,6 @@
   padding: 40px 0;
   background-color: #ffffff;
   color: #4b4c4d;
-  height: 104px;
 }
 
 .footer-basic ul {
@@ -49,6 +48,8 @@
 
 .footer-basic .social > a:hover {
   opacity: 0.9;
+  background-color: #21CBEE;
+  color: #ffffff;
 }
 
 .footer-basic .copyright {
@@ -57,5 +58,50 @@
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
+}
+
+#slugmail {
+  text-align: center;
+}
+
+.navbar-light .navbar-brand {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+@media (max-width: 767px) {
+  .col-xs-6 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigation-clean .navbar-brand {
+    margin-left: 1px!important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navigation-clean .navbar-toggler {
+  }
+}
+
+img {
+  max-height: 200px;
+  margin-top: 10px;
 }
 
