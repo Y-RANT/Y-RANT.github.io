@@ -117,4 +117,15 @@ li {
 a, a:hover {
   color: #ff6961;
 }
+.logos_ack img {
+  max-height: 70px;
+}
+.logos_ack {
+  text-align: center;
+}
+ @media (max-width: 600px) {
 
+   .logos_ack img{
+     margin: 10px 5px 10px;
+   }
+ }
