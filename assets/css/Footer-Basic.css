@@ -119,13 +119,8 @@ a, a:hover {
 }
 .logos_ack img {
   max-height: 70px;
+  margin: 10px 5px 10px;
 }
 .logos_ack {
   text-align: center;
 }
- @media (max-width: 600px) {
-
-   .logos_ack img{
-     margin: 10px 5px 10px;
-   }
- }
